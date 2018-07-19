@@ -1,11 +1,16 @@
-<!doctype html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
   <head>
     <!-- Required meta tags -->
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="css/style.css" >
+     <link rel="stylesheet" type="text/css" href="bootstrap/css/font-awesome.css" >
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" >
     <title>Hello, world!</title>
@@ -160,7 +165,7 @@
 <div class="card text-muted">
   <div class = "container">
   <div class = "card-body">
-  <p class = "card-title"> What's Upcoming </p> 
+  <h3 class = "card-title"> What's Upcoming </p> 
   
 </div>
 
@@ -179,7 +184,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-     <div class="card" style="max-width: 15rem;display:inline-flex;">
+     <div class="card" style="max-width: 16rem;display:inline-flex;">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -188,7 +193,7 @@
       <small class="text-muted">Last updated 3 mins ago</small>
     </div>
   </div>
-    <div class="card" style="max-width: 15rem; display:inline-flex;">
+    <div class="card" style="max-width: 16rem; display:inline-flex;">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -197,7 +202,7 @@
       <small class="text-muted">Last updated 3 mins ago</small>
     </div>
   </div>
-   <div class="card" style="max-width: 15rem; display:inline-flex;">
+   <div class="card" style="max-width: 16rem; display:inline-flex;">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -206,7 +211,7 @@
       <small class="text-muted">Last updated 3 mins ago</small>
     </div>
   </div>
-   <div class="card" style="max-width: 15rem; display:inline-flex;">
+   <div class="card" style="max-width: 16rem; display:inline-flex;">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -219,7 +224,7 @@
     </div>
     <div class="carousel-item">
         
-       <div class="card" style="max-width: 15rem; display:inline-flex;">
+       <div class="card" style="max-width: 16rem; display:inline-flex;">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -251,7 +256,7 @@
 
 <div class = "card-body" style="display:inline-flex;">
 
-<div class="card bg-light mb-3" style="max-width: 18rem;">
+<div class="card bg-light mb-3" style="max-width: 20rem;">
   <div class="card-header">Header</div>
   <div class="card-body">
   
@@ -284,7 +289,7 @@
 
 <div class = "card-body" style="display:inline-flex;">
 
-<div class="card bg-light mb-3" style="max-width: 18rem;">
+<div class="card bg-light mb-3" style="max-width: 20rem;">
   <div class="card-header">Header</div>
   <div class="card-body">
   
@@ -300,7 +305,7 @@
   </div>
 </div>
     
-  <div class="card bg-light mb-3" style="max-width: 18rem;">
+  <div class="card bg-light mb-3" style="max-width: 20rem;">
   <div class="card-header">Header</div>
   <div class="card-body">
     
@@ -318,13 +323,13 @@
 </div>
 </div>
 
-<div class = "card-body" style="display:inline-flex;">
+<div class = "card-body" style="display:inline-flex;" >
 
-<div class="card bg-light mb-3" style="max-width: 18rem;">
+<div class="card bg-light mb-3" style="max-width: 20rem;">
   <div class="card-header">Header</div>
-  <div class="card-body">
+  <div class="card-body" id = "news-card">
   
-     <ul class="list-group list-group-flush" id = "events-list-group">
+     <ul class="list-group list-group-flush " id = "events-list-group">
     <li class="list-group-item">
       <div class="card-block">
     <h6 class="card-title">Card title</h6>
@@ -343,6 +348,19 @@
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
     </li>
+<li class="list-group-item">
+    	 <div class="card-block">
+    <h6 class="card-title">Card title</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </li>
+    <li class="list-group-item">
+    	 <div class="card-block">
+    <h6 class="card-title">Card title</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </li>
+
   </ul>
     
   </div>
@@ -352,7 +370,74 @@
 
 </div>
 </div>
-</div>
+
+
+<div class="footer-links">
+           <div class="container">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+           </div>
+       </div>
+       <footer class="main">
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-3">
+                       <h5>Useful Links</h5>
+                       <ul>
+                           <li><a href ="#"><span class="fa fa-hand-o-right"></span>
+&nbsp; TEC</a></li>
+                           <li><a href ="#"><span class="fa fa-hand-o-right"></span>
+&nbsp; TSDSI</a></li>
+                           <li><a href ="#"><span class="fa fa-hand-o-right"></span>
+&nbsp; COAI</a></li>
+                           <li><a href ="#"><span class="fa fa-hand-o-right"></span>
+&nbsp; 5G Forum</a></li>
+                       </ul>
+                   </div>
+                   <div class="col-md-3">
+                       <h5>General Information</h5>
+                       <ul>
+                           <li><a href ="#"><span class="glyphicon glyphicon-chevron-
+right"></span> &nbsp; Articles</a></li>
+                           <li><a href ="#"><span class="glyphicon glyphicon-chevron-
+right"></span> &nbsp; Test Beds</a></li>
+                           <li><a href ="#"><span class="glyphicon glyphicon-chevron-
+right"></span> &nbsp; Contact Us</a></li>
+                           <li><a href ="#"><span class="glyphicon glyphicon-chevron-
+right"></span> &nbsp; Sitemap</a></li>
+                       </ul>
+                   </div>
+                   <div class="col-md-3">
+                       <div class="contact">
+                           <h5>Contact Us</h5>
+                           <p><i class="fa fa-map-marker fa-2x"></i> &nbsp;C-DOT Campus,
+Mandi Road, Mehrauli,New Delhi - 110030, India  </p>
+                           <p><i class="fa fa-phone-square fa-2x"></i> &nbsp; 011-
+26598681-82  </p>
+                           <p><i class="fa fa-envelope fa-2x"></i> &nbsp;
+webmaster@tcoe.in  </p>
+                       </div>
+                   </div>
+                   <div class="col-md-3 copy">
+                   © Copyright 2018 5G India - All rights reserved. Use of this website
+signifies your agreement to the 5G India Terms and Conditions.
+A not-for-profit organization, 5G India aims at improving the technological advances in
+5G area of telecommunication and uniting the different research groups together.
+               </div>
+               </div>
+           </div>
+       </footer>
+       <footer class="bottom">
+           <div class="container">
+               <span>Copyright &copy; 5G India</span>
+               <ul class="pull-right">
+                   <li><a href="/terms_and_conditions">Terms and Conditions</a></li>
+                   <li><a href="/privacy_policy">Privacy Policy</a></li>
+<!--                    <li></li>-->
+               </ul>
+           </div>
+       </footer> 
+
+  </div>
 <script type="text/javascript">
 
 $('#second_carousel').carousel("pause");
@@ -369,3 +454,9 @@ $('#second_carousel').carousel("pause");
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
   </body>
 </html>
+
+
+
+
+
+
