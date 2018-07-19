@@ -249,7 +249,7 @@
 </div>
 
 
-<div class = "card-body">
+<div class = "card-body" style="display:inline-flex;">
 
 <div class="card bg-light mb-3" style="max-width: 18rem;">
   <div class="card-header">Header</div>
@@ -279,6 +279,76 @@
   </div>
 </div>
 </div>
+
+
+
+<div class = "card-body" style="display:inline-flex;">
+
+<div class="card bg-light mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+  
+     <div class="card bg-light mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+
+<div class="card-footer text-muted">
+    2 days ago
+  </div>
+</div>
+    
+  <div class="card bg-light mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  
+<div class="card-footer text-muted">
+    2 days ago
+  </div>
+</div>
+
+  </div>
+
+
+</div>
+</div>
+
+<div class = "card-body" style="display:inline-flex;">
+
+<div class="card bg-light mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+  
+     <ul class="list-group list-group-flush" id = "events-list-group">
+    <li class="list-group-item">
+      <div class="card-block">
+    <h6 class="card-title">Card title</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+  </li>
+    <li class="list-group-item">
+       <div class="card-block">
+    <h6 class="card-title">Card title</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+   </li>
+    <li class="list-group-item">
+    	 <div class="card-block">
+    <h6 class="card-title">Card title</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </li>
+  </ul>
+    
+  </div>
+</div>
+</div>
+
 
 </div>
 </div>
