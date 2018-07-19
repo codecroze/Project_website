@@ -255,7 +255,7 @@
   <div class="card-header">Header</div>
   <div class="card-body">
   
-     <ul class="list-group list-group-flush">
+     <ul class="list-group list-group-flush" id = "events-list-group">
     <li class="list-group-item">
       <div class="card-block">
     <h6 class="card-title">Card title</h6>
