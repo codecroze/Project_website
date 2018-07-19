@@ -372,11 +372,6 @@ awesome/4.7.0/css/font-awesome.min.css">
 </div>
 
 
-<div class="footer-links">
-           <div class="container">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-           </div>
-       </div>
        <footer class="main">
            <div class="container">
                <div class="row">
